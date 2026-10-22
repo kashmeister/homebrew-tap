@@ -1,18 +1,18 @@
-# Kashmeister Tap
+# kashmeister/tap
 
-## How do I install these formulae?
+Homebrew formulae by kashmeister.
 
-`brew install kashmeister/tap/<formula>`
+## MacTouch
 
-Or `brew tap kashmeister/tap` and then `brew install <formula>`.
+[MacTouch](https://github.com/kashmeister/mactouch) is a touchscreen driver for macOS: a menu bar app
+that makes USB touch screen monitors work on a Mac, with tap, drag, right click, scrolling with
+momentum, pinch to zoom, swipes and calibration.
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "kashmeister/tap"
-brew "<formula>"
+```sh
+brew install kashmeister/tap/mactouch
+brew services start mactouch
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Then enable MacTouch in System Settings › Privacy & Security under Input Monitoring and
+Accessibility. The formula builds MacTouch from source with the Xcode Command Line Tools, so macOS
+shows no warning about an unidentified developer.
