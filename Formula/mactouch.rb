@@ -1,8 +1,8 @@
 class Mactouch < Formula
   desc "Touchscreen driver for macOS: makes USB touch screen monitors work on a Mac"
   homepage "https://github.com/kashmeister/mactouch"
-  url "https://github.com/kashmeister/mactouch/archive/refs/tags/v3.3.0.tar.gz"
-  sha256 "6951f6383d217e93045372d3be0aec14aac8f5faa1ab881cc0b25293b8ddc998"
+  url "https://github.com/kashmeister/mactouch/archive/refs/tags/v3.4.0.tar.gz"
+  sha256 "cc5dc806634256cb8430db448dab542a79aa18992e542d2d93de6a62d2fc2479"
   license "MIT"
   head "https://github.com/kashmeister/mactouch.git", branch: "main"
 
