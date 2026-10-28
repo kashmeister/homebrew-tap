@@ -2,7 +2,7 @@ class Cpfleet < Formula
   desc "Manage several CircuitPython boards over Wi-Fi from the command line"
   homepage "https://github.com/kashmeister/cpfleet"
   url "https://github.com/kashmeister/cpfleet/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "a2ccac18657f428d63364e59131867690b2c294463d0203f23ad8f7f86b9516a"
+  sha256 "04065d41a3c0ee87e051b78abb7924a8efde1dcfef1052803eff9aca800196aa"
   license "MIT"
   head "https://github.com/kashmeister/cpfleet.git", branch: "main"
 
